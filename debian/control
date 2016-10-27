@@ -1,0 +1,26 @@
+Source: ruby-faraday-middleware
+Section: ruby
+Priority: optional
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: <>
+Build-Depends: debhelper (>= 9~),
+               gem2deb,
+               ruby-faraday (<< 0.10),
+               ruby-faraday (>= 0.7.4)
+Standards-Version: 3.9.7
+Vcs-Git: https://anonscm.debian.org/git/pkg-ruby-extras/ruby-faraday-middleware.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-ruby-extras/ruby-faraday-middleware.git
+Homepage: https://github.com/lostisland/faraday_middleware
+Testsuite: autopkgtest-pkg-ruby
+XS-Ruby-Versions: all
+
+Package: ruby-faraday-middleware
+Architecture: all
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ruby | ruby-interpreter,
+         ruby-faraday (<< 0.10),
+         ruby-faraday (>= 0.7.4),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: Various middleware for Faraday
+ Various middleware for Faraday
