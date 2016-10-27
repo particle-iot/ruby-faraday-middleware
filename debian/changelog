@@ -1,5 +1,5 @@
-ruby-faraday-middleware (0.10.0-1) UNRELEASED; urgency=medium
+ruby-faraday-middleware (0.10.0-1) unstable; urgency=medium
 
-  * Initial release (Closes: #nnnn)
+  * RubyGems release 0.10.0
 
  -- Julien Vanier <monkbroc@julien-xps13>  Thu, 27 Oct 2016 16:54:40 -0400
