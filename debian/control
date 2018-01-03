@@ -8,8 +8,8 @@ Build-Depends: debhelper (>= 9~),
                ruby-faraday (<< 0.10),
                ruby-faraday (>= 0.7.4)
 Standards-Version: 3.9.7
-Vcs-Git: https://github.com/spark/ruby-faraday-middleware.git
-Vcs-Browser: https://github.com/spark/ruby-faraday-middleware.git
+Vcs-Git: https://github.com/particle-iot/ruby-faraday-middleware.git
+Vcs-Browser: https://github.com/particle-iot/ruby-faraday-middleware.git
 Homepage: https://github.com/lostisland/faraday_middleware
 Testsuite: autopkgtest-pkg-ruby
 XS-Ruby-Versions: all
